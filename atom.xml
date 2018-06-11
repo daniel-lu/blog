@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://daniel-lu.github.io/"/>
-  <updated>2018-04-09T09:30:01.164Z</updated>
+  <updated>2018-06-11T05:08:32.000Z</updated>
   <id>http://daniel-lu.github.io/</id>
   
   <author>
@@ -17,11 +17,98 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>用Sketch创建设计规范(二)</title>
+    <link href="http://daniel-lu.github.io/2018/06/11/Create-Design-System-2/"/>
+    <id>http://daniel-lu.github.io/2018/06/11/Create-Design-System-2/</id>
+    <published>2018-06-11T04:45:54.000Z</published>
+    <updated>2018-06-11T05:08:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Source: <a href="https://medium.com/sketch-app-sources/how-to-create-a-design-system-in-sketch-part-two-16156169c901" target="_blank" rel="noopener">Medium - How to create a Design System in Sketch </a></p><p>整个用Sketch创建设计规范是一个系列的文章，这是第二篇，上一篇参考：<a href="create-a-design-system">用Sketch创建设计规范(二)</a>，原作者是Marc Andrew，发表在某404平台上，具体可以参考文章顶部“Source”链接。</p><p>###</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Source: &lt;a href=&quot;https://medium.com/sketch-app-sources/how-to-create-a-design-system-in-sketch-part-two-16156169c901&quot; target=&quot;_blank&quot; rel
+      
+    
+    </summary>
+    
+    
+      <category term="Design" scheme="http://daniel-lu.github.io/tags/Design/"/>
+    
+      <category term="设计" scheme="http://daniel-lu.github.io/tags/%E8%AE%BE%E8%AE%A1/"/>
+    
+      <category term="Sketch" scheme="http://daniel-lu.github.io/tags/Sketch/"/>
+    
+      <category term="Design System" scheme="http://daniel-lu.github.io/tags/Design-System/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Agile Coach - Testing</title>
+    <link href="http://daniel-lu.github.io/2018/06/07/Agile-Coach-Testing/"/>
+    <id>http://daniel-lu.github.io/2018/06/07/Agile-Coach-Testing/</id>
+    <published>2018-06-07T12:28:28.000Z</published>
+    <updated>2018-06-07T05:31:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Why-I-write-this-post"><a href="#Why-I-write-this-post" class="headerlink" title="Why I write this post"></a>Why I write this post</h2><p>When I been released from last insurance project, I started to watch the tutorials provide by my company, on the Agile mode.</p><p>The reason to write this post is because I haven’t ever tried to work as a full time QA in projects (sometimes need help on testing work). Although I know and understand the work of QA, but for the details and the key points on Agile mode, better write down something to keep.</p><h2 id="Testing-Principles"><a href="#Testing-Principles" class="headerlink" title="Testing Principles"></a>Testing Principles</h2><ol><li>Testing shows presence of defects</li><li>Exhaustive testing is impossible</li><li>Early testing</li><li>Defect clustering</li><li>Pesticide Paradox</li><li>Testing is context dependent</li><li>Absence-of-errors fallacy</li></ol><h2 id="Test-Coverage"><a href="#Test-Coverage" class="headerlink" title="Test Coverage"></a>Test Coverage</h2><h3 id="Definition-measure-of-how-much-of-executable-code-was-tested"><a href="#Definition-measure-of-how-much-of-executable-code-was-tested" class="headerlink" title="Definition - measure of how much of executable code was tested"></a>Definition - measure of how much of executable code was tested</h3><h2 id="Black-Box-Testing-amp-White-Box-Testing"><a href="#Black-Box-Testing-amp-White-Box-Testing" class="headerlink" title="Black Box Testing &amp; White Box Testing"></a>Black Box Testing &amp; White Box Testing</h2><blockquote><p>Black Box Testing: Testing metdhod where the internal structure /d design is NOT known to the tester<br>White Box Testing: Testing method where the internal structure / design is known to the tester</p></blockquote><table><thead><tr><th>Black Box Testing</th><th>White Box Testing</th></tr></thead><tbody><tr><td>Applicable tohigher levels of testing (e.g., acceptance, integration &amp; system) <br><br> Programming knowledge not required<br>User storires / specifications used as basis for test cases<br> <ul><li>All-pairs Testing </li> <li>Orthogonal Array / Combinatorial Testing</li> </ul></td><td>Applicable to lower levels of testing (e.g., mainly unit, component, some integration &amp; system)<br><br>Programming knowledge required<br><br>Detail design / code used as basis for test cases (inputs, outputs)<br> <ul> <li>Statement</li><li>Branch (Decision)</li><li>Path</li><li>Full Regression</li><ul></ul></ul></td></tr></tbody></table><h2 id="Automation-Testing"><a href="#Automation-Testing" class="headerlink" title="Automation Testing"></a>Automation Testing</h2><p>Framework type:</p><ul><li>Modular</li><li>Data Driven</li><li>Keyword Driven</li><li>Hybrid Testing Framework</li></ul><h2 id="Levels-of-Functional-Testing"><a href="#Levels-of-Functional-Testing" class="headerlink" title="Levels of Functional Testing"></a>Levels of Functional Testing</h2><ul><li>Acceptance: Client UAT testers verifies system function is satisfied</li><li>System: Dynamic and hoslistic testing for all system components</li><li>Integration: Testing full range of functionality with other systems</li><li>Component: Similar to Unit level testing but using stubs and drivers</li><li>Unit: Internal logic &amp; design, condition &amp; exception coverage, error handling, and test path</li></ul><h2 id="Testing-Tools"><a href="#Testing-Tools" class="headerlink" title="Testing Tools"></a>Testing Tools</h2><ul><li><p>Unit &amp; Component tools</p><ul><li>Abbot</li><li>JUnit</li><li>JUnitPerf</li><li>Mockito</li><li></li></ul></li><li><p>Integration tolls</p><ul><li>IBM Retional Integration Tester</li><li>SoapUI</li></ul></li><li><p>System Tests / Acceptance Tests</p><ul><li>Retional Functional Tester</li><li>Selenium</li><li>Appium</li><li>Cucumber</li></ul></li></ul><h2 id="Non-Functional-Testing"><a href="#Non-Functional-Testing" class="headerlink" title="Non-Functional Testing"></a>Non-Functional Testing</h2><p>Types:</p><ul><li>Performance Test<ul><li>Tools:<ul><li>Apache JMeter</li><li>Retional Performance Tester</li><li>Load-runner Performance Tester</li></ul></li></ul></li><li>Resiliency Test<ul><li>Ensures system recovery without loss of data or functionality</li><li>Tools<ul><li>Chaos Monkey</li><li>Hystrix</li></ul></li></ul></li><li>Compatibility Test<ul><li>Ensure user interfaces are compatible with commenly used browsers and devices</li><li>Tools<ul><li>Browsershots</li><li>Browserstack</li><li>Browsera</li></ul></li></ul></li><li>Usability Test (hard to automatic)<ul><li>Tools<ul><li>CAMTASIA</li><li>OVO Logger</li><li>User Testing</li></ul></li></ul></li><li>Security Test<ul><li>Checking for Known security vulnerabilities within code components, infrastructure, systems and services</li></ul></li><li><p>Penetration (PEN) Test</p><ul><li>Uses ethical hacking techniques to penetrate an application for the purpose of finding security vulnerabilities that malicious hack could potentially exploit.</li><li>Tools (for security &amp; PEN test)<ul><li>IBM App Scan</li><li>ZAP by OWASP</li><li>MetasPloit by RAPID</li><li>BURP by Portswigger</li><li>BDD-Security by Continuum Security</li></ul></li></ul></li><li><p>Compliance Test</p><ul><li>Testing for compliance against prescribed IT standards</li><li>Tools<ul><li>App Scan</li><li>Master Control</li><li>CHEF</li><li>Puppet Labs</li></ul></li></ul></li></ul><h2 id="Automation-Strategy"><a href="#Automation-Strategy" class="headerlink" title="Automation Strategy"></a>Automation Strategy</h2><table><thead><tr><th>Test</th><th>Recommended Automation</th></tr></thead><tbody><tr><td>Unit</td><td>80-100%</td></tr><tr><td>Component</td><td>80-100%</td></tr><tr><td>System</td><td>40-50%</td></tr><tr><td>Integration</td><td>40-50%</td></tr><tr><td>Acceptance</td><td>30-50%</td></tr><tr><td>Static</td><td>80-100%</td></tr><tr><td>Combinatorial/Orthogonal</td><td>40-50%</td></tr><tr><td>Usability</td><td>0-10%</td></tr><tr><td>Exploratory</td><td>0%</td></tr><tr><td>Performance</td><td>80-100%</td></tr><tr><td>Resiliency</td><td>80-100%</td></tr><tr><td>Compatability</td><td>80-100%</td></tr><tr><td>Security/Penetration</td><td>80-100%</td></tr><tr><td>Compliance</td><td>80-100%</td></tr></tbody></table><h3 id="Examples-and-other-related-articles"><a href="#Examples-and-other-related-articles" class="headerlink" title="Examples and other related articles"></a>Examples and other related articles</h3><ul><li><a href="http://blog.xebialabs.com/2014/10/23/strategies-effective-acceptance-testing-part/" title="Strategies for Effective Acceptance Testing" target="_blank" rel="noopener">Strategies for Effective Acceptance Testing</a></li><li><a href="http://www.softwaretestinghelp.com/selenium-tutorial-1/" title="31 Best Selenium tutorials" target="_blank" rel="noopener">31 Best Selenium tutorials</a></li><li><a href="https://docs.saucelabs.com/tutorials/appium" title="Appium Tutorial" target="_blank" rel="noopener">Appium Tutorial</a></li><li><a href="http://www.guru99.com/cucumber-tutorials.html" title="Cucumber Tutoria" target="_blank" rel="noopener">Cucumber Tutoria</a></li><li><a href="http://www.infoq.com/interviews/dave-farley-devops" title="Dave Farley on Agile, DevOps and Acceptance testing" target="_blank" rel="noopener">Dave Farley on Agile, DevOps and Acceptance testing</a></li><li><a href="http://www.cs.colorado.edu/~kena/classes/5828/s12/presentations/testing-frameworks-by-gayat.html" title="Testing frameworks" target="_blank" rel="noopener">Testing frameworks</a></li><li>Acceptance Testing:<ul><li><a href="http://blog.xebialabs.com/2014/10/23/strategies-effective-acceptance-testing-part/13" target="_blank" rel="noopener">http://blog.xebialabs.com/2014/10/23/strategies-effective-acceptance-testing-part/13</a></li><li><a href="http://docs.seleniumhq.org" target="_blank" rel="noopener">http://docs.seleniumhq.org</a></li><li><a href="http://appium.io/" target="_blank" rel="noopener">http://appium.io/</a></li><li><a href="http://cukes.info/" target="_blank" rel="noopener">http://cukes.info/</a></li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Why-I-write-this-post&quot;&gt;&lt;a href=&quot;#Why-I-write-this-post&quot; class=&quot;headerlink&quot; title=&quot;Why I write this post&quot;&gt;&lt;/a&gt;Why I write this post&lt;/
+      
+    
+    </summary>
+    
+    
+      <category term="Agile" scheme="http://daniel-lu.github.io/tags/Agile/"/>
+    
+      <category term="Scrun" scheme="http://daniel-lu.github.io/tags/Scrun/"/>
+    
+      <category term="Testing" scheme="http://daniel-lu.github.io/tags/Testing/"/>
+    
+      <category term="Project Management" scheme="http://daniel-lu.github.io/tags/Project-Management/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用Sketch创建设计规范(一)</title>
+    <link href="http://daniel-lu.github.io/2018/04/09/Create-a-design-system/"/>
+    <id>http://daniel-lu.github.io/2018/04/09/Create-a-design-system/</id>
+    <published>2018-04-09T09:32:07.000Z</published>
+    <updated>2018-04-16T12:44:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Source: <a href="https://medium.com/sketch-app-sources/how-to-create-a-design-system-in-sketch-part-one-fd450dccab10" target="_blank" rel="noopener">Medium - How to create a Design System in Sketch </a></p><h2 id="起始"><a href="#起始" class="headerlink" title="起始"></a>起始</h2><p>起始很久以前就已经在Medium上看到Design + Sketch发布的这个系列的文章（一共有5部分），这个五个部分的文章一直躺在我浏览器上，鉴于全篇都是英文及拖延症（强烈反思……），一直没有耐心看完（起始第一部分已经看完了，就是没有总结T-T。</p><h2 id="设计Design-System的原因（部分）"><a href="#设计Design-System的原因（部分）" class="headerlink" title="设计Design System的原因（部分）"></a>设计Design System的原因（部分）</h2><ul><li>避免重复劳动</li><li>快速统一/更新整个风格（比如快速统一更新按钮颜色）</li><li>快速分享</li></ul><h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><h3 id="颜色"><a href="#颜色" class="headerlink" title="颜色"></a>颜色</h3><ul><li>需要的颜色 <ul><li>选择3个基本色（Primay, Secondary, Tertiary)</li><li>选择3个灰度色</li><li>选择提示颜色（成功、警告、错误） </li><li>KISYSS原则: Keep it simple you silly sausage)</li></ul></li></ul><img src="/2018/04/09/Create-a-design-system/1_kaPICpeefO91yj5nr345kg.jpeg" title="基本颜色设定"><img src="/2018/04/09/Create-a-design-system/1_gqYKLlaVSl9FofeLwioCqA.jpeg" title="灰度及提示颜色"><ul><li>颜色块及边框块<ul><li>所有颜色块都有同色的边框</li><li>需要建立一个只有同色边框的色块（填充为透明）</li></ul></li></ul><img src="/2018/04/09/Create-a-design-system/1_yVGy7ziSQWC9gqYVlE419Q.jpeg" title="色块（含边框）"><img src="/2018/04/09/Create-a-design-system/1_0wn4BnEcL64W0iJ8FMNCGA.jpeg" title="边框"><ul><li>蒙层色块<ul><li>蒙层色块为透明度60%的Primay颜色（或其他选中的颜色，包括黑色）</li><li>设置蒙层色块的示例(为示例图片蒙上蒙层色块)</li></ul></li></ul><img src="/2018/04/09/Create-a-design-system/1_hlbvM7T1T9H5JnD4b-j6fg.jpeg" title="蒙层色块"><h3 id="文字-字体"><a href="#文字-字体" class="headerlink" title="文字/字体"></a>文字/字体</h3><img src="/2018/04/09/Create-a-design-system/1_xNJ0bshDcwfFIyBxFYFscA.jpeg" title="字体"><ul><li>原则上最多选择2个字体</li><li>建议主要文字字体(Body text)为18pt</li><li>建议设置Uber、Hero、H1~H5的字体(按照1.2倍递增)</li></ul><img src="/2018/04/09/Create-a-design-system/1_8RHGQiUDJH-BL3BDEYVFqw.jpeg"><ul><li>建议设置Label, 小标(Small Caption)和超小字体(Tiny)</li></ul><img src="/2018/04/09/Create-a-design-system/1_rpyKWJPgzNRaWU-hIbZkzg.jpeg"><ul><li>需要设置加粗、变细、正常等字体样式</li></ul><img src="/2018/04/09/Create-a-design-system/1_2G3Gml4lFAkEyKfNJ_oSpA.jpeg"><ul><li>需要设定正常黑色（灰色）字体、淡灰字体、反转（黑底白字）、选定提示颜色字体</li></ul><h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><h4 id="阴影"><a href="#阴影" class="headerlink" title="阴影"></a>阴影</h4><img src="/2018/04/09/Create-a-design-system/1_1DWJa0wZ_g4cFFCRDq68WQ.jpeg" title="阴影"><h4 id="渐变"><a href="#渐变" class="headerlink" title="渐变"></a>渐变</h4><img src="/2018/04/09/Create-a-design-system/1_0FqppGTX0cjouGZ3alTbWA.jpeg" title="渐变"><h4 id="Doutone-Image"><a href="#Doutone-Image" class="headerlink" title="Doutone Image"></a>Doutone Image</h4><img src="/2018/04/09/Create-a-design-system/1_FknuK2F0GCzDLNb_Njc8iw.jpeg"><h4 id="8PT分隔系统"><a href="#8PT分隔系统" class="headerlink" title="8PT分隔系统"></a>8PT分隔系统</h4><img src="/2018/04/09/Create-a-design-system/1_Q9ia_OuPuRHmeeg13drQ_A.jpeg">]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Source: &lt;a href=&quot;https://medium.com/sketch-app-sources/how-to-create-a-design-system-in-sketch-part-one-fd450dccab10&quot; target=&quot;_blank&quot; rel
+      
+    
+    </summary>
+    
+    
+      <category term="Design" scheme="http://daniel-lu.github.io/tags/Design/"/>
+    
+      <category term="设计" scheme="http://daniel-lu.github.io/tags/%E8%AE%BE%E8%AE%A1/"/>
+    
+      <category term="Sketch" scheme="http://daniel-lu.github.io/tags/Sketch/"/>
+    
+      <category term="Design System" scheme="http://daniel-lu.github.io/tags/Design-System/"/>
+    
+  </entry>
+  
+  <entry>
     <title>博客上线</title>
     <link href="http://daniel-lu.github.io/2018/03/29/start-blogging-again/"/>
     <id>http://daniel-lu.github.io/2018/03/29/start-blogging-again/</id>
     <published>2018-03-29T10:01:00.000Z</published>
-    <updated>2018-04-09T09:30:01.164Z</updated>
+    <updated>2018-04-09T09:30:00.000Z</updated>
     
     <content type="html"><![CDATA[<p>终于开始写自己的博客，记得很久以前，也有写过很久的博客，那时候用的是一个开源的PHP博客系统，host在公司的服务器上。</p><p>曾经花了很多时间来定制那个博客系统，也话了一些时间来填充内容。</p><p>后来从公司辞职，就把博客从公司服务器上下掉了，之后尝试过几次，可惜GW太厉害了，好用的开源免费博客host都已经404了。</p><p>希望这次可以长久的坚持写下去吧。</p>]]></content>
     
