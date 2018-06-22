@@ -18,11 +18,11 @@
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
     <title>
         
-        用Sketch创建设计规范(二)｜Daniel&#39;s blog
+        用Sketch创建设计规范(三)｜Daniel&#39;s blog
         
     </title>
 
-    <link rel="canonical" href="http://daniel-lu.github.io/2018/06/11/Create-Design-System-2/">
+    <link rel="canonical" href="http://daniel-lu.github.io/2018/06/19/Create-Design-System-3/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -146,14 +146,14 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
                 <div class="post-heading">
-                    <h1>用Sketch创建设计规范(二)</h1>
+                    <h1>用Sketch创建设计规范(三)</h1>
                     
-                    <h2 class="subheading">Create Design System with Sketch (2)</h2>
+                    <h2 class="subheading">Create Design System with Sketch (3)</h2>
                     
                     <span class="meta">
                          作者 Daniel Lu
                         <span>
-                          日期 2018-06-11
+                          日期 2018-06-19
                          </span>
                     </span>
                     <div class="tags text-center">
@@ -177,7 +177,7 @@
     </div>
     <div class="post-title-haojen">
         <span>
-            用Sketch创建设计规范(二)
+            用Sketch创建设计规范(三)
         </span>
     </div>
 </header>
@@ -188,70 +188,55 @@
         <div class="row">
             <!-- Post Container -->
             <div class="col-lg-8 col-lg-offset-1 col-sm-9 post-container">
-                <p>Source: <a href="https://medium.com/sketch-app-sources/how-to-create-a-design-system-in-sketch-part-two-16156169c901" target="_blank" rel="noopener">Medium - How to create a Design System in Sketch </a></p>
-<p>整个用Sketch创建设计规范是一个系列的文章，这是第二篇，上一篇参考：<a href="/2018/04/09/Create-a-design-system/" title="用Sketch创建设计规范(一)">用Sketch创建设计规范(一)</a>，原作者是Marc Andrew，发表在某404平台上，具体可以参考文章顶部“Source”链接。</p>
-<h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>需要创建一个新的page，用来存放所有的symbols。</p>
-<h3 id="颜色Symbol"><a href="#颜色Symbol" class="headerlink" title="颜色Symbol"></a>颜色Symbol</h3><img src="/2018/06/11/Create-Design-System-2/color_symbols.jpeg">
+                <p>Source: <a href="https://medium.com/sketch-app-sources/how-to-create-a-design-system-in-sketch-part-three-3f0f70b2df43" target="_blank" rel="noopener">Medium - How to create a Design System in Sketch </a></p>
+<p>整个用Sketch创建设计规范是一个系列的文章，这是第三篇，上一篇参考：<a href="/2018/06/11/Create-Design-System-2/" title="用Sketch创建设计规范(二)">用Sketch创建设计规范(二)</a>，原作者是Marc Andrew，发表在某404平台上，具体可以参考文章顶部“Source”链接。</p>
+<h3 id="本文主要内容：创建形状-Shape-和状态-State-Symbol"><a href="#本文主要内容：创建形状-Shape-和状态-State-Symbol" class="headerlink" title="本文主要内容：创建形状(Shape)和状态(State)Symbol"></a>本文主要内容：创建形状(Shape)和状态(State)Symbol</h3><p>这个部分主要介绍创建基本形状(Shape)和状态(State)相关的Symbol，主要是按钮及输入框的各种状态。这些设计元素在设计稿中使用率会很高，推荐是越早设计越好。</p>
+<h3 id="按钮状态-State"><a href="#按钮状态-State" class="headerlink" title="按钮状态(State)"></a>按钮状态(State)</h3><img src="/2018/06/19/Create-Design-System-3/button_status.jpeg">
 <ul>
-<li>创建一个100 x 100的方块，用在第一个教程中设定的Primary color填充</li>
+<li>创建一个190 x 50 px的长方形（尺寸请根据实际情况设定）</li>
+<li>设定填充色为 #E9E9E9 (请使用第一部分中设定的Light Gray色值)<img src="/2018/06/19/Create-Design-System-3/button_step1.jpeg"></li>
+<li>创建样式，命名为”State/Disabled”<img src="/2018/06/19/Create-Design-System-3/button_step2.jpeg"></li>
+<li>用方块创建一个Symbol，命名为”State/Button/Disabled”<img src="/2018/06/19/Create-Design-System-3/button_step3.jpeg"></li>
+<li>重复这些步骤去创建Hover和正常状态的按钮样式<ul>
+<li>Hover状态：白色填充色，25%的透明度</li>
+<li>正常状态：白色填充色，0%的透明度<img src="/2018/06/19/Create-Design-System-3/button_hover.jpeg">
+<img src="/2018/06/19/Create-Design-System-3/button_normal.jpeg">
+</li>
 </ul>
-<img src="/2018/06/11/Create-Design-System-2/color_symbol.jpeg">
+</li>
+</ul>
+<h3 id="按钮形状-Symbol-填充"><a href="#按钮形状-Symbol-填充" class="headerlink" title="按钮形状(Symbol)(填充)"></a>按钮形状(Symbol)(填充)</h3><img src="/2018/06/19/Create-Design-System-3/button_shapes.jpeg">
 <ul>
-<li><p>从这个方块，创建一个Symbol，命名为Primary Color</p>
-<img src="/2018/06/11/Create-Design-System-2/color_symbol_2.jpeg">
+<li>创建一个120 x 40 px的长方形，命名为Base</li>
+<li>将之前创建的颜色符号(Colour Symbol)和状态符号(State Symbol)拖到这个长方形(主色Primary Color和正常状态)</li>
+<li>将拖出的符号大小修改成和新创建的长方形一致，并且设定上边齐平</li>
+<li>用第一步中创建的长方形创建一个mask</li>
+<li>选中所有层，设定圆角(Radiu)为0px，然后创建一个新的Symbol<img src="/2018/06/19/Create-Design-System-3/button_shape_symbol_step1.jpeg"></li>
+<li>重复这些步骤，创建圆角(Radiu)设定为4px和100px的按钮样式</li>
+<li>现在一个可以修改State和颜色的按钮符号(Symbol)就已经创建好了<img src="/2018/06/19/Create-Design-System-3/button_symbol.jpeg">
 </li>
-<li><p>删除创建的方块</p>
-</li>
-<li>重复这些步骤（用不同的选定的颜色填充）</li>
 </ul>
-<h3 id="文字Symbol"><a href="#文字Symbol" class="headerlink" title="文字Symbol"></a>文字Symbol</h3><img src="/2018/06/11/Create-Design-System-2/text_symbols.jpeg">
-<p>文字Symbol主要包含两部:</p>
+<h3 id="按钮形状-Symbol-边框"><a href="#按钮形状-Symbol-边框" class="headerlink" title="按钮形状(Symbol)(边框)"></a>按钮形状(Symbol)(边框)</h3><img src="/2018/06/19/Create-Design-System-3/button_borders.jpg">
 <ul>
-<li>用于按钮的文字</li>
-<li>其他的文字<br>文字Symbol的样式包含“大”、“中”、“小”、“左对齐”、“右对齐”及“居中对齐”。</li>
+<li>创建一个120 x 40 px的长方形</li>
+<li>复制一份一摸一样的(CMD+D)</li>
+<li>选中上层的长方形，修改大小为118 x 38 px，并向下移动1px<img src="/2018/06/19/Create-Design-System-3/button_border_step1.jpeg"></li>
+<li>选中这两个长方形，设置复合模式为相减(Subtract),命名新的图层为Base</li>
+<li>将主色、正常状态符号（Color Primary, Normal State Symbol)拖到这个长方形，并调整大小符合Base的大小</li>
+<li>从Base创建一个Mask</li>
+<li>设置Radius为0px</li>
+<li>选中所有图层，创建一个新的Symbol<img src="/2018/06/19/Create-Design-System-3/button_border_step2.jpeg"></li>
+<li>重复这些步骤，设置Radius为4px及100px，创建另外两个Symbol</li>
 </ul>
-
-
-<h5 id="创建文字Symbol是很费时间的"><a href="#创建文字Symbol是很费时间的" class="headerlink" title="创建文字Symbol是很费时间的"></a>创建文字Symbol是很费时间的</h5><h4 id="Symbol的命名规则"><a href="#Symbol的命名规则" class="headerlink" title="Symbol的命名规则"></a>Symbol的命名规则</h4><blockquote>
-<p>不包含对齐属性时</p>
-</blockquote>
+<h3 id="输入框"><a href="#输入框" class="headerlink" title="输入框"></a>输入框</h3><img src="/2018/06/19/Create-Design-System-3/input_states.jpeg">
+<p>注意，创建输入框的流程和按钮流程完全不同，即使看上去这两个都差不多</p>
 <ul>
-<li>Text/Button/Large/Center/Black</li>
-<li>Text/Button/Medium/Center/Black</li>
-<li>Text/Button/Small/Center/Black</li>
-</ul>
-<blockquote>
-<p>包含对齐属性时</p>
-</blockquote>
-<ul>
-<li>Text/Button/Large/Left/Green</li>
-</ul>
-<img src="/2018/06/11/Create-Design-System-2/text_symbols_2.jpeg">
-<h3 id="图标-ICON-Symbol"><a href="#图标-ICON-Symbol" class="headerlink" title="图标(ICON) Symbol"></a>图标(ICON) Symbol</h3><img src="/2018/06/11/Create-Design-System-2/icon_symbols.jpeg">
-<blockquote>
-<p>范例中的icon绝大多数都来自于Google的Material Design文档中。</p>
-</blockquote>
-<h4 id="创建步骤："><a href="#创建步骤：" class="headerlink" title="创建步骤："></a>创建步骤：</h4><ul>
-<li><p>创建一个24 x 24的方块 (基于8PT的方格系统)</p>
-<img src="/2018/06/11/Create-Design-System-2/icon_grade.jpeg">
-</li>
-<li><p>在这个方块上，叠加主色调方块，并讲这个主色调方块调整到与第一步中的方块一样大小</p>
-<img src="/2018/06/11/Create-Design-System-2/icon_grade_2.jpeg">
-</li>
-<li><p>将相关的ICON拖进这个方块中，并调整到合适的大小</p>
-</li>
-<li><p>将自动生成的文件夹删掉，并将ICON设置成为遮罩（在左侧元素树中右键点击ICON，选择“遮罩”）</p>
-<img src="/2018/06/11/Create-Design-System-2/icon_step3.jpeg">
-</li>
-<li><p>选中所有相关的元素（基础方格、颜色填充方格、遮罩ICON等），并选择创建Symbol</p>
-<img src="/2018/06/11/Create-Design-System-2/icon_create_symbol.jpeg">
-</li>
-<li><p>删除创建的原始的元素</p>
-</li>
-<li><p>设置ICON的Resizing设置</p>
-<img src="/2018/06/11/Create-Design-System-2/icon_resizing_setting.jpeg">
-</li>
-<li><p>重复这些步骤，直到创建了所有的ICON的Symbol</p>
+<li>创建一个180 x 50 px的长方形</li>
+<li>应用Bordre/Light Gray样式到这个长方形</li>
+<li>设置Radius为0px</li>
+<li>从这个长方形创建一个新的Symble</li>
+<li>重复这些步骤，分别设置Radius为4px和100px，创建另外2个Symbol</li>
+<li>分别为Active/Error/Success/Disabled状态创建同样的3个Symbol<img src="/2018/06/19/Create-Design-System-3/input_states2.jpeg">
 </li>
 </ul>
 
@@ -260,15 +245,10 @@
 
                 <ul class="pager">
                     
-                    <li class="previous">
-                        <a href="/2018/06/19/Create-Design-System-3/" data-toggle="tooltip" data-placement="top"
-                           title="用Sketch创建设计规范(三)">&larr; Previous Post</a>
-                    </li>
-                    
                     
                     <li class="next">
-                        <a href="/2018/06/07/Agile-Coach-Testing/" data-toggle="tooltip" data-placement="top"
-                           title="Agile Coach - Testing">Next Post &rarr;</a>
+                        <a href="/2018/06/11/Create-Design-System-2/" data-toggle="tooltip" data-placement="top"
+                           title="用Sketch创建设计规范(二)">Next Post &rarr;</a>
                     </li>
                     
                 </ul>
@@ -284,7 +264,7 @@
 
             <div class="hidden-xs col-sm-3 toc-col">
                 <div class="toc-wrap">
-                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#准备工作"><span class="toc-text">准备工作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#颜色Symbol"><span class="toc-text">颜色Symbol</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#文字Symbol"><span class="toc-text">文字Symbol</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#创建文字Symbol是很费时间的"><span class="toc-text">创建文字Symbol是很费时间的</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Symbol的命名规则"><span class="toc-text">Symbol的命名规则</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#图标-ICON-Symbol"><span class="toc-text">图标(ICON) Symbol</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#创建步骤："><span class="toc-text">创建步骤：</span></a></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#本文主要内容：创建形状-Shape-和状态-State-Symbol"><span class="toc-text">本文主要内容：创建形状(Shape)和状态(State)Symbol</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#按钮状态-State"><span class="toc-text">按钮状态(State)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#按钮形状-Symbol-填充"><span class="toc-text">按钮形状(Symbol)(填充)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#按钮形状-Symbol-边框"><span class="toc-text">按钮形状(Symbol)(边框)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#输入框"><span class="toc-text">输入框</span></a></li></ol>
                 </div>
             </div>
         </div>
