@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://daniel-lu.github.io/"/>
-  <updated>2018-06-26T05:19:06.000Z</updated>
+  <updated>2018-06-21T04:48:52.000Z</updated>
   <id>http://daniel-lu.github.io/</id>
   
   <author>
@@ -15,69 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>曾经参加过的一些混乱的项目(二)</title>
-    <link href="http://daniel-lu.github.io/2018/06/26/Bad-Projects-Joined-2/"/>
-    <id>http://daniel-lu.github.io/2018/06/26/Bad-Projects-Joined-2/</id>
-    <published>2018-06-26T05:16:34.000Z</published>
-    <updated>2018-06-26T05:19:06.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>此篇为上一篇<a href="/2018/06/25/Bad-Projects-Joined/" title="曾经参加过的一些混乱的项目(一)">曾经参加过的一些混乱的项目(一)</a>的续篇，记录第二个比较奇葩和混乱的项目。</p><h3 id="第二个：远在他国的非IT行业公司的IT项目"><a href="#第二个：远在他国的非IT行业公司的IT项目" class="headerlink" title="第二个：远在他国的非IT行业公司的IT项目"></a>第二个：远在他国的非IT行业公司的IT项目</h3><p>去这个项目的时候，我已经离开第一个描述的创业公司中离开了很久，接到HR的电话后也仔细思考了接下来想要走的职业的道路。综合考虑后，决定接受远在他国的offer，踏上了人生第一次去外地打工的路程。</p><p>因为offer之前谈及的东西比较多，所以当时去程的机票（顺带说一下坐的新航，非常赞）及6天的酒店，都是公司报销的（虽然报销花了2个月），所以这部份减少了很多自己的开支，建议如果有国外机会的朋友，可以仔细和公司谈。</p><p>到了公司入职后，加入了开始谈的一个Project Manger的职位，全新的项目，Team由我负责组建，也正是这样的情况，我当时才考虑接受这个offer的。</p><p>加入团队后，见到了同样是新加入的COO及其他同事，技术部门就我一个人，遂即开始准备接受现有系统（称之为Demo版吧）及招聘技术团队成员，并且同时和COO讨论平台长短期发展的一些事情，包括盈利模式等等。另外，我自己也挑选了一些业内现有的开源的方案，启动技术架构选型，比较考量的点包括技术学习、开发难度、开发到第一版需要的时间及内部用户学习使用难度等等，综合列出了各个方案的优劣，以便后期进行选择。</p><p>由于是全新项目，COO在开始的时候尝试着手一些可以操作的事项，以便汇报给集团老板的时候有进展，我还为团队准备扩展过一个所见即所得的在线编辑器，以便可以快速操作COO当时想处理的事情。</p><p>由于COO并未着手集团老板比较关注的收益计划及发展计划，项目在我加入3周后，居然直接被Cancel掉，这完全就出乎意料之外，公司将我转入另外一个平台系统（大系统）的团队之中，负责B2B电商平台，悲剧从此更加明显。</p><p>这个平台在我加入之前，已经Delay了不知道多少次，B2B电商平台更是被集团老板直接推翻商业模式、炒掉COO，实际上这个平台项目的最大的问题，是：<strong>集团老板完全不懂互联网</strong>，并且，<strong>仅着眼于追求利益</strong>，<strong>基本商业模式被多次推翻</strong>。</p><p>另外一个比较严重的问题是，公司人事招聘的人员，大部分管理岗位的人员，完全不是相关行业内的人员，导致下属在做一些专业的事项的时候，无限痛苦，完全无法理解</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;此篇为上一篇&lt;a href=&quot;/2018/06/25/Bad-Projects-Joined/&quot; title=&quot;曾经参加过的一些混乱的项目(一)&quot;&gt;曾经参加过的一些混乱的项目(一)&lt;/a&gt;的续篇，记录第二个比较奇葩和混乱的项目。&lt;/p&gt;
-&lt;h3 id=&quot;第二个：远在他国的非
-      
-    
-    </summary>
-    
-    
-      <category term="Project Management" scheme="http://daniel-lu.github.io/tags/Project-Management/"/>
-    
-      <category term="Project Manager" scheme="http://daniel-lu.github.io/tags/Project-Manager/"/>
-    
-      <category term="Product Manager" scheme="http://daniel-lu.github.io/tags/Product-Manager/"/>
-    
-      <category term="Product Management" scheme="http://daniel-lu.github.io/tags/Product-Management/"/>
-    
-      <category term="Career" scheme="http://daniel-lu.github.io/tags/Career/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>曾经参加过的一些混乱的项目</title>
-    <link href="http://daniel-lu.github.io/2018/06/25/Bad-Projects-Joined/"/>
-    <id>http://daniel-lu.github.io/2018/06/25/Bad-Projects-Joined/</id>
-    <published>2018-06-25T04:43:27.000Z</published>
-    <updated>2018-06-26T05:17:34.000Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="写此篇博文的缘由"><a href="#写此篇博文的缘由" class="headerlink" title="写此篇博文的缘由"></a>写此篇博文的缘由</h3><p>最近一直在看关于产品经理(Product Manager)和产品管理相关的书，加之最近作为项目经理也加入了一个糟糕混乱的项目，并且按照客户的要求正在尝试将项目开发模式转成Agile的模式，所以脑海中思考的项目及产品管理相关的东西比较多些，今天早上突然觉得自己应该写一个文章记录一下自己在工作中遇到的一些很不可思议的事情。</p><h3 id="第一个：与朋友合作的创业项目"><a href="#第一个：与朋友合作的创业项目" class="headerlink" title="第一个：与朋友合作的创业项目"></a>第一个：与朋友合作的创业项目</h3><p>这个项目是大约4年前和几个朋友合作的创业项目，作为联合创始人，我主要负责技术部分相关的工作，并且参与公司运营及公司平台运营的一些管理。项目整体是一个线上运营的电商相关的项目，基于Magento自定义扩展了很多功能，包括和国内的支付系统对接等等。</p><p>当我离开这个项目后，曾经多次仔细回想整个项目的一些情况，从国内的环境及商业角度来讲，这个项目的潜在用户及市场，还是不小的，至少从产品角度来讲，还是可以做的。</p><p>当时整个公司就是围绕着公司运营的电商平台这个惟一的项目运转，所有的人都是为这个项目服务，除了技术团队之外，还包括公司日常运营、商务推广运营、客户服务等其它综合的团队。<br>就团队的组成解构来讲，其实算是一个像对完备的团队了，团队成员来自各行各业，包括IT行业、传统媒体等等。</p><p>虽然团队是像对完备及多样化的，但是这也恰恰造成了团队最大的问题之一：<strong>团队之间了解不足，不能很好的配合和理解</strong>。</p><p>每个行业的人员做事的风格都不一样，对于初创团队来说，当时我们的团队的另外一个最大的问题就是<strong>执行力不足</strong>。</p><p>除了技术团队由于工作成果极易量化及追踪，其它部门的工作执行力基本上来说是不足的。比如当时有媒体资源，曾经想自己团队拍摄一系列与平台相关的短视频，用以聚集人气顺带推广平台。第一集的时候，大家热情的去推进，而且也作出了非常不错的视频，毕竟当时有媒体业内也有名的导演在我们团队之中。可惜的是，从团队成立，到团队后来迁徙到其它城市再到后来初创团队各自慢慢散去，至始至终就只制作了这一篇视频。另外，就是其它的推广相关、商务相关的事项，基本上都是虎头蛇尾，团队执行力无法坚持。</p><p>后期由于A轮融资并未像开始的预想的那么顺利的时候，运营、商务团队开始指责技术团队有很多问题，比如团队建设太慢、开发进度跟不上等等。实际上，由于是初创公司，技术团队招募是很大的问题，并且由于是初创团队，技术团队招募成员时也抱着精益求精的思惟，这点实际上可以适当放宽。但是，在当时有限的技术资源下，技术团队依然坚持不屑努力的推进着第一版平台的上线，并集成了微信及支付宝支付，而且在很短的时间内，又完全开发集成了重酬功能。</p><p>当时，我主要负责技术团队，但是也参与到公司及平台运营的各种事项之中，我曾经关注及仔细分析过当时平台上线，大家努力去推广时的用户及后期重酬功能上线后再次打造声势时的用户群，基本上两拨用户始终停留在当时创业团队的2级朋友圈内。后期仔细想想，这种情况完全说明了平台的推广始终在原地踏步，随着对产品经理及产品、平台运营的一些深入的思考，当时的平台，可以说完全还没有接触到第一批核心用户，更加别说打造品牌形象、打磨产品留住核心用户等等了。这部份内容，在我离开团队前夕，曾和天使轮投资方的投资经理仔细聊过，不过收效慎微。</p><p>最后一个团队的问题，就是当时的产品经理兼CEO。从产品经理的角度来讲，他创新能力是不错的，至少比当时的其它团队成员好很多，但是创新能力实际上只是产品经理需要的一部分而已，相比对整个团队的影响来说，这部份优势，不足以弥补对团队造成的影响。曾经有所有其它核心团队一起找寻天使轮投资人，希望可以得到一些专业的建议，以及提出需要更换CEO任选，可惜投资方最后给出的意见及提议，让我清楚的认识到，这样下去没有任何的意义，从而选择了离开。</p><p>由于当时团队成员之间互相了解不足，当时CEO由产品经理担任，在平台没有上线之前整体还是可以的，除了有些时候对团队成员的态度很不合适之外。但是，平台上线后，在准备A轮融资时，由于持续并未收到很好的消息，他的压力也比较大，然后整体压力控制没控制好，带来的问题就是持续消失（无法联系、无人知道在哪里），这给团队带来的影响是很大的。还有一点是他的短视（当然这里其它成员包括我也有很大的责任，并未坚持自己的观点），在平台初上线，就太过计较单笔定单的收入（不能亏本，包括运费也不能亏），实际上这对于一个初上线的平台来讲，无形中给自己的推广及人气聚集，下了一个很大狠坚韧的绊子，非常不利于早期平台的推广及用户的聚集、平台名声的传播。</p><p>另外一个问题是，在Pre-A拿到之后（约1KW），开始上演宫心计大片（我已经离开了，团队也迁到其它城市），最后的结果是所有其它初创团队成员，包括核心团队成员，在1年内均各自离开。</p><p>当时不可理解的另外一点是公司的开销组成部分，除了固定资产的投入及虚拟机等的租用，团队的最大开销实际上是吃。各种实际不太合适的吃，每天加班买的各种炒菜，时不时的聚餐花销（均中高档饭店），这导致了实际上很大的开支并未花在平台推广及让利与用户，而是在内部消耗上。这点在Pre-A拿到搬迁后，租用办公室的位置也可以体现，当时办公室的选址已经是在昂贵的近郊写字楼。</p><h3 id="其他项目"><a href="#其他项目" class="headerlink" title="其他项目"></a>其他项目</h3><p>写着写着，发现需要整理的和顺带吐槽的有点多，其他项目分其他篇目展开吧</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;写此篇博文的缘由&quot;&gt;&lt;a href=&quot;#写此篇博文的缘由&quot; class=&quot;headerlink&quot; title=&quot;写此篇博文的缘由&quot;&gt;&lt;/a&gt;写此篇博文的缘由&lt;/h3&gt;&lt;p&gt;最近一直在看关于产品经理(Product Manager)和产品管理相关的书，加之最近作为项
-      
-    
-    </summary>
-    
-    
-      <category term="Project Management" scheme="http://daniel-lu.github.io/tags/Project-Management/"/>
-    
-      <category term="Project Manager" scheme="http://daniel-lu.github.io/tags/Project-Manager/"/>
-    
-      <category term="Product Manager" scheme="http://daniel-lu.github.io/tags/Product-Manager/"/>
-    
-      <category term="Product Management" scheme="http://daniel-lu.github.io/tags/Product-Management/"/>
-    
-      <category term="Career" scheme="http://daniel-lu.github.io/tags/Career/"/>
-    
-  </entry>
   
   <entry>
     <title>用Sketch创建设计规范(三)</title>
@@ -156,13 +93,13 @@
     </summary>
     
     
+      <category term="Project Management" scheme="http://daniel-lu.github.io/tags/Project-Management/"/>
+    
       <category term="Agile" scheme="http://daniel-lu.github.io/tags/Agile/"/>
     
       <category term="Scrun" scheme="http://daniel-lu.github.io/tags/Scrun/"/>
     
       <category term="Testing" scheme="http://daniel-lu.github.io/tags/Testing/"/>
-    
-      <category term="Project Management" scheme="http://daniel-lu.github.io/tags/Project-Management/"/>
     
   </entry>
   
